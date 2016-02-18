@@ -1131,7 +1131,7 @@ namespace Microsoft.AspNetCore.Identity.Test
             }
         }
 
-        private class NoOpTokenProvider : IUserTokenProvider<TestUser>
+        private class NoOpTokenProvider : IUserTwoFactorTokenProvider<TestUser>
         {
             public string Name { get; } = "Noop";
 
