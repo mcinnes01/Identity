@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Represents a token provider that generates tokens from a user's security stamp and

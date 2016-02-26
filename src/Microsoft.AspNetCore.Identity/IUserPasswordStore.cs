@@ -4,7 +4,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Provides an abstraction for a store containing users' password hashes..

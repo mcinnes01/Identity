@@ -3,12 +3,12 @@
 
 using System;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNet.Authentication.Cookies;
+using Microsoft.AspNet.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.OptionsModel;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Provides default implementation of validation functions for security stamps.

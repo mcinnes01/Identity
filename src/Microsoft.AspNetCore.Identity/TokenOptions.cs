@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     public class TokenOptions
     {

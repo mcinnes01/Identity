@@ -3,7 +3,7 @@
 
 using System.Security.Cryptography;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Specifies options for password hashing.

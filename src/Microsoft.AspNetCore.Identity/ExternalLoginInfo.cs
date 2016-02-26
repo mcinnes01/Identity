@@ -3,7 +3,7 @@
 
 using System.Security.Claims;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Represents login information, source and externally source principal for a user record

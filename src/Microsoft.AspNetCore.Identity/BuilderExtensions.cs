@@ -2,12 +2,12 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System;
-
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNet.Builder;
+using Microsoft.AspNet.Identity;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.OptionsModel;
 
-namespace Microsoft.AspNetCore.Builder
+namespace Microsoft.AspNet.Builder
 {
     /// <summary>
     /// Identity extensions for <see cref="IApplicationBuilder"/>.

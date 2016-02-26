@@ -6,10 +6,10 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.DataProtection;
-using Microsoft.Extensions.Options;
+using Microsoft.AspNet.DataProtection;
+using Microsoft.Extensions.OptionsModel;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Provides protection and validation of identity tokens.

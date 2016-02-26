@@ -3,10 +3,10 @@
 
 using System;
 using System.Reflection;
-using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNet.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Microsoft.AspNetCore.Identity
+namespace Microsoft.AspNet.Identity
 {
     /// <summary>
     /// Helper functions for configuring identity services.
